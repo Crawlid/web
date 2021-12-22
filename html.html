@@ -1,0 +1,82 @@
+<!doctype html>
+  <html>
+  <head>
+    <title>html</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+   <h1><a href="index.html">코딩 공부</a></h1>
+
+<h2>html</h2>
+  <ol>
+    <h3><li>html이란?</li></h3>
+      <p>웹사이트에서 화면에 표시되는 정보를 약속한 것<br>HyperText Markup Language의 줄임말
+      <ul>
+        <li>HyperText는 단순 텍스트 이상의, 링크 등의 개념이 포함 된 텍스트</li>
+        <li>Markup은 꺽쇠(<, >)로 이루어진 태그를 사용하는 규격</li>
+      </ul>
+      <br>태그들을 이용하여 <u>텍스트 이상의 요소를 정의하는 약속된 언어</u>
+      </p>
+    <h3><li>마크업</li></h3>
+      <p>꺽쇠안에 들어간 것을 태그라 부르며 <code>&lt;something&gt;</code> 내용 <code>&lt;/something&gt;</code>처럼 작성
+      <br>꺽쇠 안에 들어가는 문자는 <strong>속성의 이름</strong>이며, 태그 내부에 들어가는 값은 <strong>속성의 값</strong></p>
+    <h3><li>웹 브라우징</li></h3>
+     <p>원리</p>
+     <ol>
+       <li>사용자가 주소(URL) 입력</li>
+       <li>어떤 IP에 접속해야 하는지 알아냄 (DNS)</li>
+       <li>브라우저가 해당 서버에 입력한 주소(URL)로 요청</li>
+       <li>서버에서 브라우저의 요청을 해석하고 실행하여 결과 데이터 전송(HTML, CSS, JS,…)</li>
+       <li>브라우저가 서버에서 받은 값을 해석하여 화면으로 출력</li>
+       <li>웹 브라우징</li>
+     </ol>
+    <h3><li>태그</li></h3>
+     <p>태그마다 속성을 부여할 수 있다. <br> &lt;태그 속성="값"&gt;으로 표시 가능</p>
+     <h4><p>body 태그</p></h4>
+     <ul>
+       <li>&lt;br&gt; : 줄바꿈 태그, 닫힘이 필요 없음</li>
+       <li>&lt;p&gt; : paragraph, 문단을 구성</li>
+       <li>&lt;b&gt; : bold, 볼드체, 글씨를 진하게함, strong태그를 더 권고</li>
+       <li>&lt;i&gt; : italic, 글씨 기울임</li>
+       <li>&lt;h1~6&gt; : 제목을 표현, 숫자가 작을수록 글씨커짐, 봇(컴퓨터, 검색엔진)이 문서를 파악할 때 쓰이므로 상황에 맞게
+         써주는게 중요</li>
+      <li>&lt;a&gt; : 하이퍼링크를 걸어주는 태그</li>
+       <ul>
+         <li>&lt;href&gt; : 클릭시 이동할 링크</li>
+         <li>&lt;target&gt; : 링크를 여는 방법</li>
+          <ul>
+            <li>_self: 현재 페이지 (기본값)</li>
+            <li>_blank: 새 탭</li>
+            <li>_parent: 부모 페이지로, iframe 등이 사용된 환경에서 쓰임(??).</li>
+            <li>_top: 최상위 페이지로, iframe 등이 사용된 환경에서 쓰임(??)</li>
+            <li>프레임이름: 직접 프레임이름을 명시해서 사용할 수도 있음(??)</li>
+          </ul>
+       </ul>
+       <li>&lt;table&gt; : 표를 만드는 태그</li>
+         <ul>
+           <li>&lt;tr&gt; : 표의 행</li>
+           <li>&lt;td&gt; : 표의 열, &lt;tr&gt;의 하위에 위치</li>
+           <li>&lt;thead&gt; : 표의 제목 영역을 나타냄, &lt;table&gt;의 하위, &lt;tr&gt;의 상위에 위치</li>
+           <li>&lt;tbody&gt; : 표의 내용 영역을 나타냄, &lt;thead&gt;와 같은 위치</li>
+           <li>&lt;th&gt; : 제목 셀을 나타낼 때 사용, &lt;td&gt;태그 대신 사용됨</li>
+           <li>&lt;colspan&gt; : &lt;td&gt;태그에서 속성으로 사용되며 열 병합</li>
+           <li>&lt;rowspan&gt; : &lt;td&gt;태그에서 속성으로 사용되며 행 병합</li>
+        </ul>
+      <li>&lt;img&gt; : 이미지를 삽입하는 태그, 속성을 이용해 경로 및 크기 지정</li>
+        <ul>
+          <li>src: 이미지의 경로</li>
+          <li>width: 이미지 가로 크기</li>
+          <li>height: 이미지 세로 크기</li>
+        </ul>
+      <li>&lt;li&gt; : list의 약자로, 목록을 만드는 태그, 단독으로 쓰이지 않으며 &lt;ol&gt;, &lt;ul&gt; 태그 내부에 들어감</li>
+       <ul>
+         <li>&lt;ol&gt; : 태그는 번호를 메겨 순서가 있는 (ordered list) 목록을 만듬</li>
+         <li>&lt;ul&gt; : 태그는 순서없이 모양으로 (unordered list) 목록을 만듬</li>
+       </ul>
+
+
+
+
+
+  </ol>
